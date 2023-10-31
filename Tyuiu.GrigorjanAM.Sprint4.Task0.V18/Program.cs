@@ -29,8 +29,9 @@ namespace Tyuiu.GrigorjanAM.Sprint4.Task0.V18
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("Массив: {9, 8, 7, 6, 5, 7, 3, 2, 7, 3}");
+
             int[] array = { 9, 8, 7, 6, 5, 7, 3, 2, 7, 3 };
+            Console.WriteLine("Исходный массив: " + "[{0}]", string.Join(", ", array));
 
 
 
