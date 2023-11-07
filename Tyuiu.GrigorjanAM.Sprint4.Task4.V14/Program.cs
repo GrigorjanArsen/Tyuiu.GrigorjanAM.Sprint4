@@ -61,7 +61,7 @@ namespace Tyuiu.GrigorjanAM.Sprint4.Task4.V14
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
             int[,] res = sd.Calculate(mx);
-            //Console.WriteLine("Максимальный элемент первой строки матрицы  = " + sd.Calculate(mx));
+
             Console.WriteLine("Матрица с обнулёнными нечётными элементами: \n");
             for (int i = 0; i < mx.GetLength(0); i++)
             {
