@@ -23,8 +23,8 @@ namespace Tyuiu.GrigorjanAM.Sprint4.Task4.V14
             Console.WriteLine("* Выполнил: Григорян Арсен Мовсесович | ИИПб-23-3                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
-            Console.WriteLine("* Написать программу, выводящую максимальный элемент первой строки матрицы*");
-            Console.WriteLine("* 5х5, заполненной статич. эл-тами от 4 до 9.                             *");
+            Console.WriteLine("* Написать программу, обнуляющую нечётные элементы матрицы 5х5 на [1,8],  *");
+            Console.WriteLine("* заполненной вводимыми с клав-ры элементами.                             *");
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
@@ -32,7 +32,9 @@ namespace Tyuiu.GrigorjanAM.Sprint4.Task4.V14
             Console.Write("Введите количество строк в массиве: ");
             int rows = Convert.ToInt32(Console.ReadLine());
             Console.Write("Введите количество столбцов в массиве: ");
+            
             int col = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine();
             int[,] mx = new int[rows, col];
             
             for (int i = 0; i < rows;i++)
