@@ -34,7 +34,6 @@ namespace Tyuiu.GrigorjanAM.Sprint4.Task6.V26
             Console.WriteLine("Исходный массив: ");
             Console.WriteLine("[{0}]", string.Join(", ", city));
 
-            Console.WriteLine("***************************************************************************");
 
             string[] res = ds.Calculate(city);
             Console.WriteLine("***************************************************************************");
