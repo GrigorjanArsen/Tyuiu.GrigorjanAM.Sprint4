@@ -30,15 +30,11 @@ namespace Tyuiu.GrigorjanAM.Sprint4.Task7.V10
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
             string str = "695847142536";
-            Console.WriteLine("Исходная строка: " + str);
-            
-            Console.WriteLine("***************************************************************************");
-            Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
-            Console.WriteLine("***************************************************************************");
-            //Console.WriteLine("Элементы, длина которых больше пяти: " + "[{0}]", string.Join(", ", res));
+            //Console.WriteLine("Исходная строка: " + str);
+
             int n = 3;
             int m = 4;
-            int[,] mx = new int[n,m];
+            int[,] mx = new int[n, m];
 
             for (int i = 0; i < n; i++)
             {
@@ -48,7 +44,7 @@ namespace Tyuiu.GrigorjanAM.Sprint4.Task7.V10
                 }
             }
 
-            Console.WriteLine("Преобразованная матрица 3х4 из строки: ");
+            Console.WriteLine("Матрица: ");
             for (int i = 0; i < n; i++)
             {
                 for (int j = 0; j < m; j++)
@@ -58,6 +54,12 @@ namespace Tyuiu.GrigorjanAM.Sprint4.Task7.V10
                 Console.WriteLine();
             }
             Console.WriteLine();
+
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
+            Console.WriteLine("***************************************************************************");
+            //Console.WriteLine("Элементы, длина которых больше пяти: " + "[{0}]", string.Join(", ", res));
+            
 
             Console.WriteLine("Сумма нечётных элементов матрицы = " + ds.Calculate(n, m, str));
             Console.ReadKey();
