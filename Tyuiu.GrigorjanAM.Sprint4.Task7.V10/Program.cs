@@ -58,8 +58,7 @@ namespace Tyuiu.GrigorjanAM.Sprint4.Task7.V10
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-            //Console.WriteLine("Элементы, длина которых больше пяти: " + "[{0}]", string.Join(", ", res));
-            
+
 
             Console.WriteLine("Сумма нечётных элементов матрицы = " + ds.Calculate(n, m, str));
             Console.ReadKey();
