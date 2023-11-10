@@ -48,7 +48,7 @@ namespace Tyuiu.GrigorjanAM.Sprint4.Task7.V10
                 }
             }
 
-            Console.WriteLine("Сгенерированная матрица 3х4 из строки: ");
+            Console.WriteLine("Преобразованная матрица 3х4 из строки: ");
             for (int i = 0; i < n; i++)
             {
                 for (int j = 0; j < m; j++)
@@ -61,7 +61,7 @@ namespace Tyuiu.GrigorjanAM.Sprint4.Task7.V10
 
             Console.WriteLine("Сумма нечётных элементов матрицы = " + ds.Calculate(n, m, str));
             Console.ReadKey();
-
+       
         }
     }
 }
